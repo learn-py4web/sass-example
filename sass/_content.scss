@@ -1,0 +1,36 @@
+$greyline: rgb(60%, 60%, 60%);
+$lightgreyline: rgb(80%, 80%, 80%);
+
+$header-padding: 20px;
+$header-sep: 30px;
+$body-margin: 20px;
+
+div.header {
+  border-bottom: 1px solid $greyline;
+  padding-left: $header-padding;
+  padding-right: $header-padding;
+  margin-bottom: $header-sep;
+  ul {
+    list-style: none; // This removes the bullets.
+    padding-left: 0px;
+    li {
+      margin-right: 10px;
+      border: 1px solid $lightgreyline;
+      padding: 5px;
+      display: inline-block;
+    }
+  }
+}
+
+div.content {
+  margin-left: $body-margin;
+  margin-right: $body-margin;
+}
+
+div.footer {
+  margin-top: $header-sep;
+  border-top: 1px solid $greyline;
+  p {
+    text-align: center;
+  }
+}

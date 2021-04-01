@@ -1,0 +1,25 @@
+div.header {
+  border-bottom: 1px solid #999999;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 30px; }
+  div.header ul {
+    list-style: none;
+    padding-left: 0px; }
+    div.header ul li {
+      margin-right: 10px;
+      border: 1px solid #cccccc;
+      padding: 5px;
+      display: inline-block; }
+
+div.content {
+  margin-left: 20px;
+  margin-right: 20px; }
+
+div.footer {
+  margin-top: 30px;
+  border-top: 1px solid #999999; }
+  div.footer p {
+    text-align: center; }
+
+/*# sourceMappingURL=mystyle.css.map */
